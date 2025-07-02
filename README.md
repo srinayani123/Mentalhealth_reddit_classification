@@ -60,6 +60,9 @@ I fine-tuned multiple transformer models on annotated Reddit data to classify po
   - Strong performance on subtle classes like bipolar/personality disorder.
   
 - **Regressor**: `distilbert-base-uncased` (triage scoring)
+
+  ![image](https://github.com/user-attachments/assets/c684831e-9b12-48da-a35a-4cd3d5af46e1)
+
   - Captured risk ranges from 0.02 to 1.00 effectively.
   - Outperformed other models in semantic generalization.
 
