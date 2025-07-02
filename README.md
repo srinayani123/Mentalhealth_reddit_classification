@@ -35,6 +35,14 @@ The dataset consists of Reddit posts collected from various mental health-relate
    - Combined `title` and `text` fields.
    - Handled missing values.
    - Mapped target labels and created `triage_score` using regex-based heuristics.
+     
+2. **Data Visualization**-
+   Below are few notable plots,
+   ![image](https://github.com/user-attachments/assets/98cd35fb-226e-4ad3-aad9-ea184e42b64c)
+   ![newplot (66)](https://github.com/user-attachments/assets/2adeabba-acca-4e1f-a7c4-21b132b0d22d)
+   ![newplot (67)](https://github.com/user-attachments/assets/50f98de8-e76e-4b2a-a26a-f6f5f43bf713)
+
+   
 
 2. **Model Selection**  
    - **Classification**:  
