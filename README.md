@@ -1,4 +1,4 @@
-# 🧠 Mental Health Reddit Post Classifier and Triage Score Estimator
+# Mental Health Reddit Post Classifier and Triage Score Estimator
 
 This project builds and evaluates NLP models to classify mental health conditions and assign a triage severity score to Reddit posts, enabling early identification and prioritization of at-risk users in online communities.
 
