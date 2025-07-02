@@ -55,8 +55,8 @@ I fine-tuned multiple transformer models on annotated Reddit data to classify po
 ## 📈 Results (Best Model)
 
 - **Classifier**: `Sharpaxis/Mental-Health-RoBERTa`
-  - Accuracy: 89.2%
-  - F1 Score: 89.1%
+  ![image](https://github.com/user-attachments/assets/80b61743-127e-4904-adb9-8ba52bac7ead)
+
   - Strong performance on subtle classes like bipolar/personality disorder.
   
 - **Regressor**: `distilbert-base-uncased` (triage scoring)
