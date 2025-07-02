@@ -92,7 +92,17 @@ The dataset consists of Reddit posts collected from various mental health-relate
 ----
 ## ✅ Conclusion & Model Justification
 
-The `Mental-Health-RoBERTa` model achieved the best balance of accuracy and class-wise recall, making it suitable for classification in sensitive clinical scenarios. For regression, `DistilBERT` provided smoother generalization and faster training without sacrificing much accuracy. Domain-specific pretraining proved highly beneficial in understanding nuanced mental health expressions.
+Among the evaluated models, Mental-Health-RoBERTa consistently delivered the highest classification accuracy, coupled with strong recall across all five mental health condition classes. This is especially critical in clinical or support-related applications, where failing to detect high-risk cases (false negatives) can have serious consequences. The domain-specific pretraining on mental health-related corpora allowed this model to better understand subtle linguistic patterns such as fragmented expressions, indirect distress signals, and colloquial phrases commonly found in online support forums or Reddit posts.
+
+On the regression side, DistilBERT offered a compelling trade-off between performance and efficiency. Despite having fewer parameters, it generalized well across the triage score spectrum (0.05 to 1.0), with tightly clustered predictions around true scores, especially for moderate to high-risk cases. It also trained significantly faster than heavier models like BERT or RoBERTa, making it more practical for iterative experimentation or real-time scoring applications.
+
+Overall, the results highlight that:
+
+Domain-adapted language models (e.g., Mental-Health-RoBERTa) are far better suited for nuanced classification tasks involving emotional or psychological language.
+
+Lightweight transformers like DistilBERT are highly effective for regression tasks where subtle variations in risk must be quantified, offering speed without compromising reliability.
+
+The choice of model should ultimately depend on the deployment setting — for high-stakes triage or moderation, prioritizing recall with domain knowledge is key; for scalable or real-time risk estimation, general-purpose distilled models may suffice.
 
 ---
 
