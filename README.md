@@ -15,7 +15,20 @@ Online mental health communities often receive thousands of posts daily, many of
 I fine-tuned multiple transformer models on annotated Reddit data to classify posts into five mental health categories and regress a continuous triage score based on linguistic patterns of risk. This dual modeling approach allows both categorical tagging and prioritization of cases needing attention.
 
 ---
+## 📂 Data Description
 
+The dataset consists of Reddit posts collected from various mental health-related subreddits. Each record contains:
+
+- `title`: Post title
+- `text`: Body of the post
+- `target`: Integer label (0–4), representing one of five mental health conditions:
+  - **0** – Depression  
+  - **1** – Anxiety  
+  - **2** – Bipolar Disorder  
+  - **3** – Personality Disorder  
+  - **4** – Stress
+
+---
 ## ⚙️ Methodology
 
 1. **Data Preprocessing**  
@@ -76,7 +89,19 @@ The `Mental-Health-RoBERTa` model achieved the best balance of accuracy and clas
 
 ## 💻 Run Instructions
 
+1. Clone the repository:
+   
 ```bash
 git clone https://github.com/srinayani123/Mentalheakth_reddit_classification
-cd mental_health
 pip install -r requirements.txt
+
+2. Then, open the colab
+Navigate to model_finetuning or data preprocessing/ and open any .ipynb via Colab.
+
+3. Upload data:
+Manually upload data when prompted while executing the code.
+
+4. Run each notebook step by step:
+Each notebook is self-contained and runnable from start to end.
+
+
