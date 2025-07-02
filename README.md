@@ -100,11 +100,14 @@ The dataset consists of Reddit posts collected from various mental health-relate
    ![image](https://github.com/user-attachments/assets/ec75ab71-8b1d-4700-b593-cb779fd10542)
 
 -**Regressor**:
-l. BERT-uncased- 
-2.
-   
+l. BERT-uncased:
+   ![image](https://github.com/user-attachments/assets/392d3abd-da56-44f6-81ee-f40323d1c16a)
 
----
+    
+2. Mental- Health- RoBERTa:
+   ![image](https://github.com/user-attachments/assets/601856b5-29ce-44fb-b5b0-9404f33c562b)
+
+ ---
 
 ## Outputs- 
 
