@@ -81,6 +81,14 @@ The dataset consists of Reddit posts collected from various mental health-relate
 
 ---
 
+## Outputs- 
+
+- **Classifier** :
+  ![image](https://github.com/user-attachments/assets/632fa594-589b-4652-9345-7aecb106ce7b)
+- **Regressor** :
+- ![image](https://github.com/user-attachments/assets/6e686fb3-af23-43ad-94f8-9da413d92bad)
+
+----
 ## ✅ Conclusion & Model Justification
 
 The `Mental-Health-RoBERTa` model achieved the best balance of accuracy and class-wise recall, making it suitable for classification in sensitive clinical scenarios. For regression, `DistilBERT` provided smoother generalization and faster training without sacrificing much accuracy. Domain-specific pretraining proved highly beneficial in understanding nuanced mental health expressions.
