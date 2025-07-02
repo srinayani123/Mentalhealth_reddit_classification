@@ -86,6 +86,23 @@ The dataset consists of Reddit posts collected from various mental health-relate
 
   - Captured risk ranges from 0.02 to 1.00 effectively.
   - Outperformed other models in semantic generalization.
+---
+## All Model Results
+-**Classifier**: 
+
+1. Mental- Health-RoBERTa :
+   ![image](https://github.com/user-attachments/assets/0c4dfae3-0b89-4207-8224-65c37f498ac5)
+
+3. BERT-uncased:
+   ![image](https://github.com/user-attachments/assets/a5b33ee5-0258-4add-a569-5b7a65548290)
+
+5. Distill-bert:
+   ![image](https://github.com/user-attachments/assets/ec75ab71-8b1d-4700-b593-cb779fd10542)
+
+-**Regressor**:
+l. BERT-uncased- 
+2.
+   
 
 ---
 
